@@ -49,7 +49,7 @@ public class ViewCommandTest {
         ReadOnlyPerson stranger = new Person(new Name("me"),
                                              new Phone("123", true),
                                              new Email("some@hey.go", true),
-                                             new Address("nus", false),
+                                             new Address("33, 1 Clementi Road, #02, 345432", false),
                                              new UniqueTagList(Collections.emptySet()));
         List<ReadOnlyPerson> listWithExtraPerson
                 = new ArrayList<ReadOnlyPerson>(listWithAllTypicalPersons);
