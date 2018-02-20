@@ -40,10 +40,11 @@
 ## Testing
 
 ### I/O tests
+* There cannot be more than 100 people in the addressbook *
 
 **Windows**
 
-1. Open a DOS window in the `test` folder
+1. Open a DOS window in the `test` folder OR a terminal window 'View'->'Tool Windows'->'Terminal'
 2. Run the `runtests.bat` script
 3. If the script reports that there is no difference between `actual.txt` and `expected.txt`, 
    the test has passed.
